@@ -1,0 +1,16 @@
+#%Module
+proc ModulesHelp { } {
+    puts stderr { Collection of handy code when working with VizBin or sequences in general. - Homepage: NONE
+    }
+}
+
+module-whatis { Collection of handy code when working with VizBin or sequences in general. - Homepage: NONE
+}
+
+set root /home/cedric/repositories/vizbins_little_helpers
+
+conflict vizbins_little_helpers
+
+prepend-path    PATH            $root/src
+
+# Created manually by cedric on Mon Feb  1 08:47:25 CET 2016
