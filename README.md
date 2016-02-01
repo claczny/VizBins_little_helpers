@@ -11,4 +11,7 @@ Some population might have long and few contigs, whereas the opposite might be t
 For these cases, the `chunkify.py` script can be used.
 This script creates "chunks" out of the provided sequences with a defaul chunk-length of 3,000 nt.
 
+# Sequence statistics
+The script `seq_stats.pl` can be used to generate per-sequence length information and to generate an overall summary.
+Simply pipe the stdout to `/dev/null` to get the overall summary only.
 
