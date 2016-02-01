@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 """Chunkify FASTA sequences
 
 Usage:
